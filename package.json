@@ -1,0 +1,26 @@
+{
+  "name": "otp_login_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.7.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "twilio": "^5.3.4",
+    "uuid": "^10.0.0"
+  }
+}
